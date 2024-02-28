@@ -1,6 +1,7 @@
 .feature-card2-container {
   gap: var(--dl-space-space-unit);
   display: flex;
+  position: relative;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
