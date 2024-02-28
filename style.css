@@ -267,7 +267,7 @@
 }
 .teleport-show {
   display: flex !important;
-  transform: none !important;
+  transform: translateX(0%) !important;
 }
 .logo {
   font-size: 2em;
