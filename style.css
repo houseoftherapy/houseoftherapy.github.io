@@ -318,6 +318,14 @@
   line-height: 150%;
   text-transform: uppercase;
 }
+.Header {
+  font-size: 25px;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: none;
+  text-decoration: none;
+}
 .heading3 {
   font-size: 20px;
   text-align: center;
@@ -330,12 +338,4 @@
   font-family: Lato;
   font-weight: 400;
   line-height: 150%;
-}
-.Header {
-  font-size: 25px;
-  font-family: Lato;
-  font-weight: 400;
-  line-height: 150%;
-  text-transform: none;
-  text-decoration: none;
 }

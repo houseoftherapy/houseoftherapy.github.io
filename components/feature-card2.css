@@ -11,6 +11,8 @@
   line-height: 28px;
 }
 
+
+
 @media(max-width: 767px) {
   .feature-card2-feature-card {
     flex-direction: row;
