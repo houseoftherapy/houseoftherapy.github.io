@@ -1,4 +1,4 @@
-.therapies-container {
+.thanks-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
 }
-.therapies-header {
+.thanks-header {
   width: 100%;
   height: 60px;
   display: flex;
@@ -16,22 +16,22 @@
   align-items: center;
   flex-direction: column;
 }
-.therapies-navbar-interactive {
+.thanks-navbar-interactive {
   height: 61px;
   background-color: #293731;
 }
-.therapies-image {
+.thanks-image {
   width: 189px;
   height: 55px;
   object-fit: cover;
   text-decoration: none;
 }
-.therapies-desktop-menu {
+.thanks-desktop-menu {
   flex: 1;
   display: flex;
   justify-content: space-between;
 }
-.therapies-links {
+.thanks-links {
   gap: var(--dl-space-space-sixunits);
   flex: 1;
   width: auto;
@@ -41,28 +41,17 @@
   flex-direction: row;
   justify-content: center;
 }
-.therapies-nav12 {
+.thanks-nav12 {
   color: var(--dl-color-custom-secondary1);
   font-size: 19px;
   align-self: center;
-  font-family: Lato;
+  font-family: "Lato";
   font-weight: 400;
   line-height: 150%;
   text-transform: none;
   text-decoration: none;
 }
-.therapies-nav22 {
-  color: var(--dl-color-custom-secondary1);
-  font-size: 19px;
-  align-self: center;
-  font-family: Lato;
-  font-weight: 400;
-  line-height: 150%;
-  margin-left: var(--dl-space-space-unit);
-  text-transform: none;
-  text-decoration: none;
-}
-.therapies-nav42 {
+.thanks-nav22 {
   color: var(--dl-color-custom-secondary1);
   font-size: 19px;
   align-self: center;
@@ -73,7 +62,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.therapies-nav52 {
+.thanks-nav42 {
   color: var(--dl-color-custom-secondary1);
   font-size: 19px;
   align-self: center;
@@ -84,19 +73,30 @@
   text-transform: none;
   text-decoration: none;
 }
-.therapies-burger-menu {
+.thanks-nav52 {
+  color: var(--dl-color-custom-secondary1);
+  font-size: 19px;
+  align-self: center;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 150%;
+  margin-left: var(--dl-space-space-unit);
+  text-transform: none;
+  text-decoration: none;
+}
+.thanks-burger-menu {
   display: none;
 }
-.therapies-icon {
+.thanks-icon {
   width: 24px;
   height: 24px;
 }
-.therapies-icon02 {
+.thanks-icon02 {
   width: var(--dl-size-size-xsmall);
   cursor: pointer;
   height: var(--dl-size-size-xsmall);
 }
-.therapies-mobile-menu1 {
+.thanks-mobile-menu1 {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -110,48 +110,48 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.therapies-nav {
+.thanks-nav {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.therapies-top {
+.thanks-top {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.therapies-close-menu {
+.thanks-close-menu {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.therapies-icon04 {
+.thanks-icon04 {
   width: var(--dl-size-size-xsmall);
   cursor: pointer;
   height: var(--dl-size-size-xsmall);
 }
-.therapies-links1 {
+.thanks-links1 {
   flex: 0 0 auto;
   display: flex;
   align-self: flex-start;
   align-items: flex-start;
   flex-direction: column;
 }
-.therapies-nav121 {
+.thanks-nav121 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.therapies-nav221 {
+.thanks-nav221 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.therapies-nav421 {
+.thanks-nav421 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.therapies-nav521 {
+.thanks-nav521 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.therapies-buttons {
+.thanks-buttons {
   border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   margin-top: var(--dl-space-space-unit);
@@ -159,31 +159,31 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.therapies-icon06 {
+.thanks-icon06 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
-.therapies-icon08 {
+.thanks-icon08 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
-.therapies-icon10 {
+.thanks-icon10 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.therapies-features-container {
+.thanks-features-container {
   width: 100%;
-  height: 1270px;
+  height: 789px;
   align-self: stretch;
   align-items: center;
   justify-content: center;
 }
-.therapies-features {
+.thanks-features {
   gap: var(--dl-space-space-threeunits);
   width: 100%;
-  height: 1153px;
+  height: 200px;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
   align-items: center;
@@ -194,53 +194,29 @@
   padding-bottom: var(--dl-space-space-fourunits);
   justify-content: flex-start;
 }
-.therapies-container1 {
+.thanks-container1 {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
 }
-.therapies-features-heading {
+.thanks-features-heading {
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.therapies-features-sub-heading {
+.thanks-features-sub-heading {
   font-size: 18px;
   text-align: center;
 }
-.therapies-container2 {
-  width: 100%;
-  display: grid;
-  grid-gap: var(--dl-space-space-oneandhalfunits);
-  grid-template-columns: 1fr 1fr;
-}
-.therapies-image1 {
-  width: 537px;
-  height: 186px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-.therapies-image2 {
-  width: 541px;
-  height: 190px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-.therapies-text17 {
-  text-align: center;
-}
-.therapies-text18 {
-  text-align: center;
-}
-.therapies-footer {
+.thanks-footer {
   height: 217px;
   padding-top: var(--dl-space-space-halfunit);
 }
-.therapies-image3 {
+.thanks-image1 {
   width: 200px;
   object-fit: cover;
   text-decoration: none;
 }
-.therapies-container3 {
+.thanks-container2 {
   gap: var(--dl-space-space-unit);
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
@@ -248,7 +224,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.therapies-nav1 {
+.thanks-nav1 {
   flex: 0 0 auto;
   display: flex;
   margin-top: 0px;
@@ -256,18 +232,18 @@
   padding-top: var(--dl-space-space-halfunit);
   flex-direction: row;
 }
-.therapies-nav122 {
+.thanks-nav122 {
   text-decoration: none;
 }
-.therapies-nav222 {
+.thanks-nav222 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.therapies-nav522 {
+.thanks-nav522 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.therapies-separator {
+.thanks-separator {
   flex: 0 0 auto;
   width: 100%;
   height: 0px;
@@ -285,7 +261,7 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
-.therapies-container4 {
+.thanks-container3 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -293,126 +269,123 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.therapies-icon-group1 {
+.thanks-icon-group1 {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.therapies-link {
+.thanks-link {
   display: contents;
 }
-.therapies-icon12 {
+.thanks-icon12 {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.therapies-link1 {
+.thanks-link1 {
   display: contents;
 }
-.therapies-icon14 {
+.thanks-icon14 {
   width: 24px;
   height: 24px;
   text-decoration: none;
 }
 @media(max-width: 991px) {
-  .therapies-features-sub-heading {
+  .thanks-features-sub-heading {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
   }
 }
 @media(max-width: 849px) {
-  .therapies-navbar-interactive {
+  .thanks-navbar-interactive {
     position: relative;
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .therapies-desktop-menu {
+  .thanks-desktop-menu {
     display: none;
   }
-  .therapies-burger-menu {
+  .thanks-burger-menu {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .therapies-icon02 {
+  .thanks-icon02 {
     fill: #ffffff;
     width: auto;
     height: 40px;
   }
-  .therapies-nav121 {
+  .thanks-nav121 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .therapies-nav221 {
+  .thanks-nav221 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .therapies-nav421 {
+  .thanks-nav421 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .therapies-nav521 {
+  .thanks-nav521 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .therapies-features {
+  .thanks-features {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .therapies-features-sub-heading {
+  .thanks-features-sub-heading {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .therapies-container2 {
-    grid-template-columns: 1fr;
-  }
-  .therapies-footer {
+  .thanks-footer {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .therapies-separator {
+  .thanks-separator {
     margin-top: var(--dl-space-space-oneandhalfunits);
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .therapies-container4 {
+  .thanks-container3 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
   }
-  .therapies-text81 {
+  .thanks-text17 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
 @media(max-width: 479px) {
-  .therapies-navbar-interactive {
+  .thanks-navbar-interactive {
     padding: var(--dl-space-space-unit);
   }
-  .therapies-icon02 {
+  .thanks-icon02 {
     fill: #ffffff;
   }
-  .therapies-mobile-menu1 {
+  .thanks-mobile-menu1 {
     padding: 16px;
   }
-  .therapies-features {
+  .thanks-features {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .therapies-footer {
+  .thanks-footer {
     padding: var(--dl-space-space-unit);
   }
-  .therapies-separator {
+  .thanks-separator {
     margin-top: var(--dl-space-space-oneandhalfunits);
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .therapies-container4 {
+  .thanks-container3 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
   }
-  .therapies-text81 {
+  .thanks-text17 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }

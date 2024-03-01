@@ -630,17 +630,17 @@
   justify-content: center;
   background-color: #e6ebe0;
 }
-.home-textinput1 {
+.home-name {
   border-width: 0px;
   margin-right: var(--dl-space-space-oneandhalfunits);
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-textinput2 {
+.home-email {
   border-width: 0px;
   margin-right: var(--dl-space-space-oneandhalfunits);
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-textinput3 {
+.home-number {
   border-width: 0px;
   margin-right: var(--dl-space-space-oneandhalfunits);
   margin-bottom: var(--dl-space-space-unit);

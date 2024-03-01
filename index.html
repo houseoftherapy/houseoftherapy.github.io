@@ -326,8 +326,8 @@
             class="home-navbar-interactive navbarContainer"
           >
             <img
-              src="public/logo%20long%20gold%20transparent-200h.png"
               alt="image"
+              src="public/logo%20long%20gold%20transparent-200h.png"
               class="home-image"
             />
             <div data-thq="thq-navbar-nav" class="home-desktop-menu">
@@ -726,11 +726,11 @@
           </div>
         </div>
         <form
-          enctype="application/x-www-form-urlencoded"
-          action="https://formsubmit.co/enquiries@houseoftherapy.uk"
-          method="POST"
           id="Contact"
           name="hidden"
+          action="https://formsubmit.co/enquiries@houseoftherapy.uk"
+          method="POST"
+          enctype="application/x-www-form-urlencoded"
           class="home-form"
         >
           <div class="home-container14">
@@ -745,8 +745,9 @@
               <div class="home-container17">
                 <input
                   type="text"
-                  placeholder="Message"
                   required="true"
+                  placeholder="Message"
+                  name="Message"
                   class="home-textinput input"
                 />
               </div>
@@ -754,24 +755,34 @@
             <div class="home-container18">
               <input
                 type="text"
-                placeholder="Name"
                 rows="Name"
                 required="true"
-                class="home-textinput1 input"
+                placeholder="Name"
+                name="Name"
+                class="home-name input"
               />
               <input
                 type="email"
-                placeholder="Email"
                 required="true"
-                class="home-textinput2 input"
+                placeholder="Email"
+                name="Email"
+                class="home-email input"
+              />
+              <input
+                type="hidden"
+                placeholder="placeholder"
+                name="_next"
+                value="https://houseoftherapy.github.io/Thanks!.html"
+                class="input"
               />
               <input
                 type="tel"
-                placeholder="Number"
+                required="true"
                 maxlength="14"
                 minlength="11"
-                required="true"
-                class="home-textinput3 input"
+                placeholder="Number"
+                name="Number"
+                class="home-number input"
               />
               <button type="submit" class="home-button button">Submit</button>
             </div>
