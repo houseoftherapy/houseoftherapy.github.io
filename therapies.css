@@ -1,60 +1,3 @@
-.feature-card2-container {
-  gap: var(--dl-space-space-unit);
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.feature-card2-text {
-  font-weight: 600;
-  line-height: 28px;
-}
-
-
-
-@media(max-width: 849px) {
-  .feature-card2-feature-card {
-    flex-direction: row;
-  }
-  .feature-card2-container {
-    flex-direction: column;
-  }
-}
-@media(max-width: 479px) {
-  .feature-card2-container {
-    flex-direction: column;
-  }
-}
-
-.feature-card11-container {
-  gap: var(--dl-space-space-unit);
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.feature-card11-text {
-  font-weight: 600;
-  line-height: 28px;
-}
-
-
-
-@media(max-width: 849px) {
-  .feature-card11-feature-card {
-    flex-direction: row;
-  }
-  .feature-card11-container {
-    flex-direction: column;
-  }
-}
-@media(max-width: 479px) {
-  .feature-card11-container {
-    flex-direction: column;
-  }
-}
-
 .therapies-container {
   width: 100%;
   display: flex;
@@ -63,12 +6,23 @@
   align-items: center;
   flex-direction: column;
 }
+.therapies-header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+}
 .therapies-navbar-interactive {
-  height: 97px;
+  height: 61px;
+  background-color: #293731;
 }
 .therapies-image {
-  width: 240px;
-  height: 78px;
+  width: 189px;
+  height: 55px;
   object-fit: cover;
 }
 .therapies-desktop-menu {
@@ -87,24 +41,56 @@
   justify-content: center;
 }
 .therapies-nav12 {
+  color: var(--dl-color-custom-secondary1);
+  font-size: 19px;
   align-self: center;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: none;
+  text-decoration: none;
 }
 .therapies-nav22 {
+  color: var(--dl-color-custom-secondary1);
+  font-size: 19px;
   align-self: center;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 150%;
   margin-left: var(--dl-space-space-unit);
+  text-transform: none;
+  text-decoration: none;
 }
 .therapies-nav42 {
+  color: var(--dl-color-custom-secondary1);
+  font-size: 19px;
   align-self: center;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 150%;
   margin-left: var(--dl-space-space-unit);
+  text-transform: none;
+  text-decoration: none;
 }
 .therapies-nav52 {
+  color: var(--dl-color-custom-secondary1);
+  font-size: 19px;
   align-self: center;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 150%;
   margin-left: var(--dl-space-space-unit);
+  text-transform: none;
+  text-decoration: none;
 }
 .therapies-burger-menu {
   display: none;
 }
 .therapies-icon {
+  width: 24px;
+  height: 24px;
+}
+.therapies-icon02 {
   width: var(--dl-size-size-xsmall);
   cursor: pointer;
   height: var(--dl-size-size-xsmall);
@@ -118,7 +104,7 @@
   padding: 32px;
   z-index: 100;
   position: absolute;
-  transform: translateX(-100%);
+  transform: translateX(100%);
   transition: 0.5s;
   flex-direction: column;
   justify-content: space-between;
@@ -140,7 +126,7 @@
   align-items: center;
   justify-content: center;
 }
-.therapies-icon02 {
+.therapies-icon04 {
   width: var(--dl-size-size-xsmall);
   cursor: pointer;
   height: var(--dl-size-size-xsmall);
@@ -172,11 +158,6 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.therapies-icon04 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
-}
 .therapies-icon06 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
@@ -185,15 +166,23 @@
 .therapies-icon08 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.therapies-icon10 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
 }
 .therapies-features-container {
   width: 100%;
-  height: 471px;
+  height: 1270px;
   align-self: stretch;
+  align-items: center;
+  justify-content: center;
 }
 .therapies-features {
   gap: var(--dl-space-space-threeunits);
   width: 100%;
+  height: 1153px;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
   align-items: center;
@@ -223,6 +212,108 @@
   grid-gap: var(--dl-space-space-oneandhalfunits);
   grid-template-columns: 1fr 1fr;
 }
+.therapies-image1 {
+  width: 537px;
+  height: 186px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.therapies-image2 {
+  width: 541px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.therapies-text17 {
+  text-align: center;
+}
+.therapies-text18 {
+  text-align: center;
+}
+.therapies-footer {
+  height: 217px;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.therapies-image3 {
+  width: 200px;
+  object-fit: cover;
+}
+.therapies-container3 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.therapies-nav1 {
+  flex: 0 0 auto;
+  display: flex;
+  margin-top: 0px;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  flex-direction: row;
+}
+.therapies-nav122 {
+  text-decoration: none;
+}
+.therapies-nav222 {
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.therapies-nav522 {
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.therapies-separator {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 0px;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-900);
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.therapies-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.therapies-icon-group1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.therapies-link {
+  display: contents;
+}
+.therapies-icon12 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.therapies-link1 {
+  display: contents;
+}
+.therapies-icon14 {
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+}
 @media(max-width: 991px) {
   .therapies-features-sub-heading {
     text-align: center;
@@ -232,6 +323,7 @@
 }
 @media(max-width: 849px) {
   .therapies-navbar-interactive {
+    position: relative;
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
@@ -243,7 +335,8 @@
     align-items: center;
     justify-content: center;
   }
-  .therapies-icon {
+  .therapies-icon02 {
+    fill: #ffffff;
     width: auto;
     height: 40px;
   }
@@ -270,10 +363,31 @@
   .therapies-container2 {
     grid-template-columns: 1fr;
   }
+  .therapies-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .therapies-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .therapies-container4 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .therapies-text81 {
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
 }
 @media(max-width: 479px) {
   .therapies-navbar-interactive {
     padding: var(--dl-space-space-unit);
+  }
+  .therapies-icon02 {
+    fill: #ffffff;
   }
   .therapies-mobile-menu1 {
     padding: 16px;
@@ -283,5 +397,21 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
+  }
+  .therapies-footer {
+    padding: var(--dl-space-space-unit);
+  }
+  .therapies-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .therapies-container4 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .therapies-text81 {
+    text-align: center;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }

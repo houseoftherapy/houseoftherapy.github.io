@@ -12,7 +12,6 @@
 }
 
 
-
 @media(max-width: 849px) {
   .feature-card2-feature-card {
     flex-direction: row;
@@ -38,7 +37,6 @@
   font-weight: 600;
   line-height: 28px;
 }
-
 
 
 @media(max-width: 849px) {
@@ -198,6 +196,10 @@
   display: none;
 }
 .home-icon {
+  width: 24px;
+  height: 24px;
+}
+.home-icon02 {
   width: var(--dl-size-size-xsmall);
   cursor: pointer;
   height: var(--dl-size-size-xsmall);
@@ -233,7 +235,7 @@
   align-items: center;
   justify-content: center;
 }
-.home-icon02 {
+.home-icon04 {
   width: var(--dl-size-size-xsmall);
   cursor: pointer;
   height: var(--dl-size-size-xsmall);
@@ -265,17 +267,17 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-icon04 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
-}
 .home-icon06 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
 .home-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.home-icon10 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
@@ -722,11 +724,6 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-icon10 {
-  width: 24px;
-  height: 24px;
-  margin-right: var(--dl-space-space-twounits);
-}
 .home-link {
   display: contents;
 }
@@ -736,9 +733,13 @@
   margin-right: var(--dl-space-space-twounits);
   text-decoration: none;
 }
+.home-link1 {
+  display: contents;
+}
 .home-icon14 {
   width: 24px;
   height: 24px;
+  text-decoration: none;
 }
 @media(max-width: 991px) {
   .home-hero1 {
@@ -815,7 +816,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-icon {
+  .home-icon02 {
     fill: #ffffff;
     width: auto;
     height: 40px;
@@ -920,7 +921,7 @@
   .home-navbar-interactive {
     padding: var(--dl-space-space-unit);
   }
-  .home-icon {
+  .home-icon02 {
     fill: #ffffff;
   }
   .home-mobile-menu1 {
