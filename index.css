@@ -120,12 +120,12 @@
   background-color: var(--dl-color-gray-white);
 }
 .home-navbar-interactive {
-  height: 97px;
-  background-color: #576b5d;
+  height: 61px;
+  background-color: #293731;
 }
 .home-image {
-  width: 240px;
-  height: 78px;
+  width: 189px;
+  height: 55px;
   object-fit: cover;
 }
 .home-desktop-menu {
@@ -145,25 +145,45 @@
 }
 .home-nav12 {
   color: var(--dl-color-custom-secondary1);
+  font-size: 19px;
   align-self: center;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: none;
   text-decoration: none;
 }
 .home-nav22 {
   color: var(--dl-color-custom-secondary1);
+  font-size: 19px;
   align-self: center;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 150%;
   margin-left: var(--dl-space-space-unit);
+  text-transform: none;
   text-decoration: none;
 }
 .home-nav42 {
   color: var(--dl-color-custom-secondary1);
+  font-size: 19px;
   align-self: center;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 150%;
   margin-left: var(--dl-space-space-unit);
+  text-transform: none;
   text-decoration: none;
 }
 .home-nav52 {
   color: var(--dl-color-custom-secondary1);
+  font-size: 19px;
   align-self: center;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 150%;
   margin-left: var(--dl-space-space-unit);
+  text-transform: none;
   text-decoration: none;
 }
 .home-burger-menu {
