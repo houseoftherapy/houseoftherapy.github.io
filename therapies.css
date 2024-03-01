@@ -13,7 +13,7 @@
 
 
 
-@media(max-width: 767px) {
+@media(max-width: 849px) {
   .feature-card2-feature-card {
     flex-direction: row;
   }
@@ -41,7 +41,7 @@
 
 
 
-@media(max-width: 767px) {
+@media(max-width: 849px) {
   .feature-card11-feature-card {
     flex-direction: row;
   }
@@ -230,7 +230,7 @@
     padding-right: var(--dl-space-space-threeunits);
   }
 }
-@media(max-width: 767px) {
+@media(max-width: 849px) {
   .therapies-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);

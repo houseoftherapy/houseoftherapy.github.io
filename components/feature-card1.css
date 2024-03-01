@@ -9,7 +9,7 @@
   font-weight: 600;
   line-height: 28px;
 }
-@media(max-width: 767px) {
+@media(max-width: 849px) {
   .feature-card1-feature-card {
     flex-direction: row;
   }

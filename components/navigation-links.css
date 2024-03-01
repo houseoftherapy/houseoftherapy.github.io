@@ -24,7 +24,7 @@
 
 
 
-@media(max-width: 767px) {
+@media(max-width: 849px) {
   .navigation-links-nav {
     align-items: flex-start;
     flex-direction: column;
