@@ -9,6 +9,15 @@
   flex-direction: column;
 }
 .question3-text {
-  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 600;
+  line-height: 150%;
 }
 
+@media(max-width: 479px) {
+  .question3-text {
+    text-align: left;
+  }
+}

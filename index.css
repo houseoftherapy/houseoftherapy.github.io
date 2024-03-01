@@ -96,9 +96,18 @@
   flex-direction: column;
 }
 .question3-text {
-  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 600;
+  line-height: 150%;
 }
 
+@media(max-width: 479px) {
+  .question3-text {
+    text-align: left;
+  }
+}
 
 .home-container {
   width: 100%;
@@ -909,6 +918,9 @@
   .home-navbar-interactive {
     padding: var(--dl-space-space-unit);
   }
+  .home-icon {
+    fill: #ffffff;
+  }
   .home-mobile-menu1 {
     padding: 16px;
   }
@@ -930,6 +942,12 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
+  .home-features-heading {
+    font-size: 35px;
+    font-family: Raleway;
+    font-weight: 600;
+    line-height: 150%;
+  }
   .home-pricing-card2 {
     margin-bottom: 0px;
   }
@@ -941,7 +959,7 @@
   }
   .home-text81 {
     width: 382px;
-    align-self: flex-start;
+    align-self: center;
     text-align: center;
   }
   .home-text82 {
