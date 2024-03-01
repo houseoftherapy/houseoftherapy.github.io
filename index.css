@@ -602,7 +602,6 @@
 .home-textinput {
   width: 252px;
   height: 194px;
-  z-index: 100;
   align-self: center;
   margin-left: var(--dl-space-space-oneandhalfunits);
   border-width: 0px;
