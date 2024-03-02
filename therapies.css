@@ -230,9 +230,8 @@
   flex: 0 0 auto;
   width: auto;
   display: flex;
-  align-items: center;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .therapies-image2 {
   width: 541px;
@@ -446,6 +445,9 @@
   }
   .therapies-container2 {
     height: 100%;
+  }
+  .therapies-image1 {
+    align-self: center;
   }
   .therapies-container4 {
     justify-content: center;
