@@ -196,10 +196,6 @@
   display: none;
 }
 .home-icon {
-  width: 24px;
-  height: 24px;
-}
-.home-icon02 {
   width: var(--dl-size-size-xsmall);
   cursor: pointer;
   height: var(--dl-size-size-xsmall);
@@ -235,7 +231,7 @@
   align-items: center;
   justify-content: center;
 }
-.home-icon04 {
+.home-icon02 {
   width: var(--dl-size-size-xsmall);
   cursor: pointer;
   height: var(--dl-size-size-xsmall);
@@ -249,15 +245,19 @@
 }
 .home-nav121 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .home-nav221 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .home-nav421 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .home-nav521 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .home-buttons {
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -267,19 +267,15 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.home-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
 .home-icon06 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
-}
-.home-icon08 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
-}
-.home-icon10 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
 }
 .home-hero {
   flex: 0 0 auto;
@@ -724,19 +720,19 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-link {
+.home-link1 {
   display: contents;
 }
-.home-icon12 {
+.home-icon08 {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.home-link1 {
+.home-link2 {
   display: contents;
 }
-.home-icon14 {
+.home-icon10 {
   width: 24px;
   height: 24px;
   text-decoration: none;
@@ -816,7 +812,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-icon02 {
+  .home-icon {
     fill: #ffffff;
     width: auto;
     height: 40px;
@@ -832,6 +828,10 @@
   }
   .home-nav521 {
     margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-icon06 {
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
   }
   .home-hero1 {
     padding-left: var(--dl-space-space-twounits);
@@ -921,7 +921,7 @@
   .home-navbar-interactive {
     padding: var(--dl-space-space-unit);
   }
-  .home-icon02 {
+  .home-icon {
     fill: #ffffff;
   }
   .home-mobile-menu1 {
