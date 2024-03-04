@@ -34,7 +34,16 @@
   flex-direction: column;
   justify-content: center;
 }
+.not-found1-navlink {
+  display: contents;
+}
 .not-found1-text2 {
   text-align: center;
   font-weight: 400;
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .not-found1-text2 {
+    font-weight: 400;
+  }
 }
