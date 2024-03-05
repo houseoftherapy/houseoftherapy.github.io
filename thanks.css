@@ -374,6 +374,9 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
+  .thanks-features-heading {
+    text-align: center;
+  }
   .thanks-footer {
     padding: var(--dl-space-space-unit);
   }
