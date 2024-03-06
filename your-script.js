@@ -12,8 +12,8 @@ const firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
-// Reference to the Firebase database
-const database = firebase.database();
+// Reference to the Firestore database
+const db = firebase.firestore();
 
 // Initialize FullCalendar
 $(document).ready(function() {
@@ -36,8 +36,14 @@ function bookAppointment() {
         date: selectedDate.format()
     };
 
-    // Push the booking data to Firebase
-    database.ref('bookings').push(bookingData);
+    // Add the booking data to Firestore
+    db.collection('Bookings').add(bookingData)
+        .then(function(docRef) {
+            console.log("Booking added with ID: ", docRef.id);
+        })
+        .catch(function(error) {
+            console.error("Error adding booking: ", error);
+        });
 
     // Clear the form fields
     $('#name').val('');
