@@ -14,3 +14,32 @@ firebase.initializeApp(firebaseConfig);
 
 // Reference to the Firebase database
 const database = firebase.database();
+
+// Initialize FullCalendar
+$(document).ready(function() {
+    $('#calendar').fullCalendar({
+        // Configure FullCalendar options
+        // ...
+    });
+});
+
+// Function to book an appointment
+function bookAppointment() {
+    const name = $('#name').val();
+    const email = $('#email').val();
+    const selectedDate = $('#calendar').fullCalendar('getDate');
+
+    // Create a data object with booking details
+    const bookingData = {
+        name: name,
+        email: email,
+        date: selectedDate.format()
+    };
+
+    // Push the booking data to Firebase
+    database.ref('bookings').push(bookingData);
+
+    // Clear the form fields
+    $('#name').val('');
+    $('#email').val('');
+}
