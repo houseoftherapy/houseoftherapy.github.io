@@ -20,13 +20,12 @@ const db = firebase.firestore();
 function bookAppointment() {
     const name = $('#name').val();
     const email = $('#email').val();
-    const selectedDate = $('#calendar').fullCalendar('getDate');
 
     // Create a data object with booking details
     const bookingData = {
         name: name,
         email: email,
-        date: selectedDate.format()
+]
     };
 
     // Add the booking data to Firestore
