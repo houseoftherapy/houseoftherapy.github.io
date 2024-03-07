@@ -25,20 +25,7 @@
         <input type="text" id="email" placeholder="Email">
         <button type="button" onclick="bookAppointment()">Book Appointment</button>
     </form>
-    <!-- Initialize FullCalendar -->
-    <script>
-        $(document).ready(function() {
-            $('#calendar').fullCalendar({
-                // Configure FullCalendar options
-                header: {
-                    left: 'prev,next today',
-                    center: 'title',
-                    right: 'month,agendaWeek,agendaDay'
-                },
-                // Add more options as needed
-            });
-        });
-    </script>
+
     <!-- Include Firebase scripts -->
 <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore-compat.js"></script>

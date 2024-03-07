@@ -16,14 +16,6 @@ firebase.initializeApp(firebaseConfig);
 // Reference to the Firestore database
 const db = firebase.firestore();
 
-// Initialize FullCalendar
-$(document).ready(function() {
-    $('#calendar').fullCalendar({
-        // Configure FullCalendar options
-        // ...
-    });
-});
-
 // Function to book an appointment
 function bookAppointment() {
     const name = $('#name').val();
