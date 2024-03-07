@@ -37,7 +37,7 @@ function bookAppointment() {
     };
 
     // Add the booking data to Firestore
-    db.collection('Bookings').add(bookingData)
+    db.collection('Bookings/ghdIAErbTK9agv2lhe3r').add(bookingData)
         .then(function(docRef) {
             console.log("Booking added with ID: ", docRef.id);
         })
