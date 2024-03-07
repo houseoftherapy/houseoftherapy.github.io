@@ -25,7 +25,6 @@ function bookAppointment() {
     const bookingData = {
         name: name,
         email: email,
-]
     };
 
     // Add the booking data to Firestore
