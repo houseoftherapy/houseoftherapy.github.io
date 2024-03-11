@@ -1,4 +1,4 @@
-
+	
 // Replace with your Firebase config
 const firebaseConfig = {
   apiKey: "AIzaSyBDdPM7ZXpgNE7hS3EUbEb0ztwvA0a96UQ",
@@ -28,7 +28,7 @@ function bookAppointment() {
     };
 
     // Add the booking data to Firestore
-    db.collection('Bookings/ghdIAErbTK9agv2lhe3r').add(bookingData)
+    db.collection('ghdIAErbTK9agv2lhe3r').add(bookingData)
         .then(function(docRef) {
             console.log("Booking added with ID: ", docRef.id);
         })
