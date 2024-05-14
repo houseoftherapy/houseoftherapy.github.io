@@ -540,7 +540,7 @@
 }
 .home-container16 {
   gap: var(--dl-space-space-oneandhalfunits);
-  height: 146px;
+  height: auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -554,7 +554,7 @@
   align-items: center;
   flex-direction: row;
 }
-.home-text66 {
+.home-text69 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
@@ -562,13 +562,13 @@
 .home-free-plan-price1 {
   font-size: 4rem;
 }
-.home-text67 {
+.home-text70 {
   font-size: 1.15rem;
   font-style: normal;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.home-text70 {
+.home-text73 {
   font-size: 1.15rem;
 }
 .home-navlink3 {
@@ -623,11 +623,11 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text88 {
+.home-text91 {
   align-self: center;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-text89 {
+.home-text92 {
   text-align: left;
 }
 .home-container19 {
@@ -878,7 +878,7 @@
   .home-banner-sub-heading {
     max-width: 100%;
   }
-  .home-text89 {
+  .home-text92 {
     align-self: flex-start;
     text-align: left;
     padding-left: var(--dl-space-space-halfunit);
@@ -1014,7 +1014,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text89 {
+  .home-text92 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
@@ -1036,7 +1036,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text95 {
+  .home-text98 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
@@ -1092,12 +1092,12 @@
   .home-container18 {
     align-self: flex-start;
   }
-  .home-text88 {
+  .home-text91 {
     width: 382px;
     align-self: center;
     text-align: center;
   }
-  .home-text89 {
+  .home-text92 {
     text-align: center;
   }
   .home-form {
@@ -1129,7 +1129,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text95 {
+  .home-text98 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
