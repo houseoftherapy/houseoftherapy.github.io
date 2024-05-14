@@ -416,6 +416,7 @@
   justify-content: center;
 }
 .home-pricing-card {
+  align-self: center;
   margin-right: var(--dl-space-space-twounits);
 }
 .home-container09 {
@@ -433,21 +434,21 @@
   align-items: center;
   flex-direction: row;
 }
-.home-text46 {
+.home-text42 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.home-basic-plan-pricing {
+.home-free-plan-price {
   font-size: 4rem;
 }
-.home-text47 {
+.home-text43 {
   font-size: 1.15rem;
   font-style: normal;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.home-text50 {
+.home-text46 {
   font-size: 1.15rem;
 }
 .home-navlink {
@@ -461,7 +462,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text51 {
+.home-text47 {
   text-transform: uppercase;
 }
 .home-container12 {
@@ -469,7 +470,7 @@
   align-items: center;
   flex-direction: row;
 }
-.home-text54 {
+.home-text50 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
@@ -477,13 +478,13 @@
 .home-pro-plan-pricing {
   font-size: 4rem;
 }
-.home-text57 {
+.home-text53 {
   font-size: 1.15rem;
   font-style: normal;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.home-text58 {
+.home-text54 {
   font-size: 1.15rem;
 }
 .home-navlink1 {
@@ -499,7 +500,6 @@
   justify-content: center;
 }
 .home-pricing-card2 {
-  align-self: center;
   margin-right: var(--dl-space-space-twounits);
 }
 .home-container14 {
@@ -509,7 +509,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text59 {
+.home-text55 {
   text-transform: uppercase;
 }
 .home-container15 {
@@ -522,7 +522,7 @@
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.home-free-plan-price {
+.home-basic-plan-pricing {
   font-size: 4rem;
 }
 .home-text61 {
@@ -859,6 +859,7 @@
   }
   .home-pricing-card {
     width: 100%;
+    padding: var(--dl-space-space-twounits);
     max-width: 450px;
   }
   .home-pricing-card1 {
@@ -867,7 +868,6 @@
   }
   .home-pricing-card2 {
     width: 100%;
-    padding: var(--dl-space-space-twounits);
     max-width: 450px;
   }
   .home-pricing-card3 {
