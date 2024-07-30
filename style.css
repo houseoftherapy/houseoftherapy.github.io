@@ -120,7 +120,7 @@
   display: flex;
   padding: var(--dl-space-space-twounits);
   max-width: 450px;
-  min-height: 450px;
+  min-height: inherit;
   align-items: flex-start;
   font-family: Lato;
   flex-direction: column;
@@ -269,6 +269,7 @@
   display: flex !important;
   transform: translateX(0%) !important;
 }
+
 .logo {
   font-size: 2em;
   font-family: Lato;
